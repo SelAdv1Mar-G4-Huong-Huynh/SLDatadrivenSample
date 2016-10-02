@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSettings
+  id="22d4d244-2daa-4e32-9ff8-205517d8a5dd"
+  name="SeleniumAdvance"
+  enableDefaultDataCollectors="false"
+  xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Description><!--_locID_text="Description1"-->These are default test settings for a local test run.</Description>
+  <Deployment enabled="false" />
+  <Execution parallelTestCount="5">
+    <TestTypeSpecific>
+      <UnitTestRunConfig testTypeId="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b">
+        <AssemblyResolution>
+          <TestDirectory useLoadContext="true" />
+        </AssemblyResolution>
+      </UnitTestRunConfig>
+    </TestTypeSpecific>
+    <AgentRule name="LocalMachineDefaultRole">
+    </AgentRule>
+  </Execution>
+</TestSettings>
